@@ -1,4 +1,4 @@
-# Productivity Dashobard
+# Productivity Dashboard
 
 This repository contains a modular web application built with React, Tailwind CSS, Node.js, and TypeScript. The application features widgets that can toggle between productivity apps and games, designed for scalability and reusability.
 
@@ -46,6 +46,7 @@ my-app/
 ├── public/
 ├── src/
     ├── main.tsx
+    ├── App.css
     ├── App.tsx
     ├── index.css
     ├── components/
@@ -55,9 +56,13 @@ my-app/
         │   ├── ToDoList.tsx
         │   ├── MemoryGame.tsx
         │   └── index.tsx
-        └── WidgetTwo/
-            ├── PomodoroTimer.tsx
-            ├── TicTacToe.tsx
+        ├── WidgetTwo/
+        |    ├── PomodoroTimer.tsx
+        |    ├── TicTacToe.tsx
+        |    └── index.tsx
+        └── WidgetThree/
+            ├── NotesApp.tsx
+            ├── SudokuApp.tsx
             └── index.tsx
 ```
 
