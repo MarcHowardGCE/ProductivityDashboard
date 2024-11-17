@@ -1,0 +1,40 @@
+/* Import Tailwind's base styles */
+@tailwind base;
+/* Import Tailwind's component styles */
+@tailwind components;
+/* Import Tailwind's utility styles */
+@tailwind utilities;
+
+/* Custom styles */
+
+/* Apply background and text color to the body */
+body {
+  @apply bg-gray-100 text-gray-900;
+}
+
+/* Style for the main application container */
+.app-container {
+  @apply mx-auto; /* Padding, max width, and center alignment */
+}
+
+/* Style for each widget container */
+.widget-container {
+  @apply bg-white shadow-md rounded-md p-4 mb-4; /* Background, shadow, rounded corners, padding, and margin */
+}
+
+/* Style for the toggle button */
+.toggle-button {
+  @apply bg-blue-500 text-white px-4 py-2 rounded-md mb-4; /* Background color, text color, padding, rounded corners, and margin */
+}
+
+/* Style for the widget content area */
+.widget-content {
+  @apply p-4 bg-gray-100 rounded-lg; /* Padding, background color, and rounded corners */
+}
+
+/* Custom component styles */
+@layer components {
+  .custom-class {
+    @apply p-4 bg-blue-200; /* Example Tailwind utility for padding and background color */
+  }
+}
